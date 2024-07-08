@@ -14,7 +14,7 @@ This is a simple Express application to manage real estate properties using an S
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/real-estate-properties-api.git
+   git clone https://github.com/jayanthbm/real-estate-properties-api.git
    cd real-estate-properties-api
    ```
 
