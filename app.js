@@ -2,11 +2,12 @@ const express = require("express");
 const sqlite3 = require("sqlite3").verbose();
 const bodyParser = require("body-parser");
 const fs = require("fs");
-
+const cors = require("cors");
 const app = express();
 const port = 3000;
 
 // Middleware
+app.use(cors());
 app.use(bodyParser.json());
 
 const DB_FILE = "./real_estate.db";
